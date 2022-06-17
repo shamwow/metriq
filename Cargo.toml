@@ -1,0 +1,16 @@
+[package]
+name = "metriq"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+solana-program = "^1.8"
+numtoa = "^0.2.4"
+bs58 = "^0.4.0"
+
+[dev-dependencies]
+criterion = "^0.3.5"
+
+[[bench]]
+name = "benches"
+harness = false
