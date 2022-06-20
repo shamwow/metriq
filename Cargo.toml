@@ -1,7 +1,12 @@
 [package]
 name = "metriq"
+description = "Structured logging for solana smart contracts"
 version = "0.1.0"
 edition = "2021"
+readme = "README.md"
+repository = "https://github.com/shamwow/matriq/"
+license = "MIT"
+keywords = ["solana", "logging", "metrics"]
 
 [dependencies]
 solana-program = "^1.8"

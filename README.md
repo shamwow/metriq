@@ -8,6 +8,12 @@ See benchmarks for speed comparisons.
 
 ## Usage
 
+Add to Cargo.toml:
+```toml
+metriq = "0.1.0"
+```
+
+In your code:
 ```rust
 use metriq;
 use metriq::FastDisplay;
